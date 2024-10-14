@@ -9,12 +9,12 @@
   },
   "autoload": {
     "psr-4": {
-      "leadid\\simple-php-framework\\": "src/"
+      "leadid\\simple_php_framework\\": "src/"
     }
   },
   "scripts": {
     "post-install-cmd": [
-      "leadid\\simple-php-framework\\UpdateChecker::execute"
+      "leadid\\simple_php_framework\\UpdateChecker::execute"
     ]
   }
 }
