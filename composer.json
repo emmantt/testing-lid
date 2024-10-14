@@ -1,0 +1,14 @@
+{
+  "name": "leadid/simple-php-framework",
+  "description": "Testing out a new leadid php framework.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "lead-id\\simple-php-framework\\": "src/"
+    }
+  }
+}
