@@ -1,6 +1,6 @@
 <?php
 
-namespace lead-id\simple-php-framework;
+namespace leadid\simple-php-framework;
 
 class UpdateChecker {
     public function execute() {
