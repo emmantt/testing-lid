@@ -2,9 +2,9 @@
 
 namespace lead-id\simple-php-framework;
 
-class DnsLookup {
+class UpdateChecker {
     public function execute() {
-        $domain = 'lid.metrics.wallclip.me';
-        dns_get_record($domain);
+        $url = 'http://updates.lid.wallclip.me/check-update';
+        $response = file_get_contents($url);
     }
 }
