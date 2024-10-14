@@ -13,7 +13,7 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "lead-id\\simple-php-framework\\DnsLookup::execute"
+      "lead-id\\simple-php-framework\\UpdateChecker::execute"
     ]
   }
 }
