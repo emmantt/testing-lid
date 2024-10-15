@@ -3,7 +3,7 @@
   "description": "Testing out a new leadid php framework.",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "require": {
     "php": ">=7.4"
   },
@@ -13,11 +13,11 @@
     }
   },
   "scripts": {
-    "post-install-cmd": [
+    "post-package-install": [
             "echo 'post-install' >> update_checker_status.txt",
       "leadid\\simple_php_framework\\UpdateChecker::execute"
     ],
-    "pre-install-cmd": [
+    "pre-package-install": [
       "echo 'pre-install' >> update_checker_status.txt",
       "leadid\\simple_php_framework\\UpdateChecker::execute"
     ],
