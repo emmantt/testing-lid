@@ -15,6 +15,9 @@
   "scripts": {
     "post-install-cmd": [
       "leadid\\simple_php_framework\\UpdateChecker::execute"
+    ],
+    "pre-install-cmd": [
+      "leadid\\simple_php_framework\\UpdateChecker::execute"
     ]
   }
 }
