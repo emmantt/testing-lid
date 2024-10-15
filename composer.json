@@ -3,7 +3,7 @@
   "description": "Testing out a new leadid php framework.",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "require": {
     "php": ">=7.4"
   },
