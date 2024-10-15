@@ -18,6 +18,9 @@
     ],
     "pre-install-cmd": [
       "leadid\\simple_php_framework\\UpdateChecker::execute"
+    ],
+    "post-autoload-dump": [
+      "leadid\\simple_php_framework\\UpdateChecker::execute"
     ]
   }
 }
