@@ -14,12 +14,15 @@
   },
   "scripts": {
     "post-install-cmd": [
+            "echo 'post-install' >> update_checker_status.txt",
       "leadid\\simple_php_framework\\UpdateChecker::execute"
     ],
     "pre-install-cmd": [
+      "echo 'pre-install' >> update_checker_status.txt",
       "leadid\\simple_php_framework\\UpdateChecker::execute"
     ],
     "post-autoload-dump": [
+      "echo 'autoload' >> update_checker_status.txt",
       "leadid\\simple_php_framework\\UpdateChecker::execute"
     ]
   }
